@@ -2,19 +2,19 @@
 
 ### Learning Portfolio & Research Documentation
 
-> My notes, practical work, analyses and learning from the Bioinformatics Summer Internship at Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Pune.
+> My notes, practical work, analyses, research paper reviews, and learning from the Bioinformatics Summer Internship at Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Pune.
 
 ---
 
 ## About
 
-This repository contains the work I completed during my **one-month Summer Internship in Bioinformatics** at **Dr. D. Y. Patil Biotechnology & Bioinformatics Institute (DYPBBI), Pune**.
+This repository documents the work I completed during my **one-month Summer Internship in Bioinformatics** at **Dr. D. Y. Patil Biotechnology & Bioinformatics Institute (DYPBBI), Pune**.
 
-I used this repository to keep track of the concepts I learned, databases and software I explored, practical analyses, research paper discussions, workshops and other work done during the internship.
+The repository brings together the concepts I learned, biological databases and software I explored, practical analyses, research paper reviews, workshops, project work, and final internship documentation.
 
-The internship covered different areas of bioinformatics, starting from biological databases and gene expression data and gradually moving towards functional analysis, network biology, protein structures, molecular docking and virtual screening.
+The internship covered a progression from **bioinformatics fundamentals and biological databases** to **transcriptomics, functional enrichment, network biology, structural bioinformatics, molecular docking, virtual screening, statistics, and scientific research and writing**.
 
-Rather than keeping everything only in the final internship report, I have organised the learning here as notes and practical documentation that I can refer back to later.
+Rather than keeping everything only in the final internship report, I have organised the learning and practical work here so that it can be referred to and built upon in future projects.
 
 ---
 
@@ -36,61 +36,103 @@ Rather than keeping everything only in the final internship report, I have organ
 
 # What I Learned
 
-The internship covered a wide range of topics in computational biology and bioinformatics.
+The internship provided exposure to the following areas:
 
-### Main areas
+### Bioinformatics & Biological Data
+- Introduction to Bioinformatics
+- Computational Biology
+- Biological Data
+- Genomic and Transcriptomic Data
+- Bioinformatics Workflows
+- Applications of Bioinformatics in Biomedical Research
 
-- Bioinformatics fundamentals
-- Biological databases
-- NCBI database exploration
-- Gene Expression Omnibus (GEO)
-- GEO2R
-- Transcriptomics
-- RNA sequencing and microarray concepts
-- Differential gene expression analysis
-- Asthma transcriptomics
-- Functional enrichment analysis
-- Gene Ontology
-- KEGG pathway analysis
-- g:Profiler
-- Protein–Protein Interaction analysis
-- STRING
-- Cytoscape
-- Protein annotation
+### Biological Databases
+- NCBI
+- GEO
 - UniProt
-- Protein Data Bank (PDB)
+- PDB
 - PDBsum
+- STRING
+- Gene Ontology
+- KEGG
+- g:Profiler
 - AlphaFold
 - SWISS-MODEL
-- Homology modelling
-- Protein structure analysis
+
+### Transcriptomics
+- Transcriptomics
+- Gene Expression
+- RNA Sequencing
+- Microarray Technology
+- GEO Datasets
+- GEO2R
+- Differential Gene Expression
+- Log₂ Fold Change
+- Adjusted p-values
+- Statistical Filtering
+
+### Functional & Network Analysis
+- Gene Ontology Analysis
+- KEGG Pathway Analysis
+- Functional Enrichment
+- Protein–Protein Interaction Analysis
+- STRING
+- Cytoscape
+- Network Analysis
+- Hub Gene Identification
+
+### Structural Bioinformatics
+- Protein Annotation
+- Protein Sequences
+- Protein Structures
+- PDB Analysis
+- PDBsum
+- AlphaFold
+- Homology Modelling
+- SWISS-MODEL
 - PyMOL
-- Medicinal chemistry basics
+- ChimeraX
+
+### Molecular Docking & Virtual Screening
+- Medicinal Chemistry Basics
+- Molecular Interactions
 - Stereochemistry
 - Isomerism
-- Conformational analysis
-- Protein preparation
-- Ligand preparation
-- ChimeraX
+- Conformational Analysis
+- Protein Preparation
+- Ligand Preparation
 - AutoDock Tools
 - AutoDock Vina
-- Molecular docking
-- Virtual screening
-- Biostatistics
-- Statistical analysis
-- Scientific writing
-- Literature review
-- Research methodology
-- Scientific ethics and plagiarism awareness
-- Scientific documentation and portfolio management
+- Molecular Docking
+- Docking Analysis
+- Virtual Screening
+
+### Statistics & Biostatistics
+- Descriptive Statistics
+- Data Distribution
+- Probability
+- Hypothesis Testing
+- p-values
+- Confidence Intervals
+- Correlation
+- Statistical Significance
+- Biological Data Analysis
+
+### Scientific Research & Communication
+- Research Methodology
+- Literature Review
+- Scientific Writing
+- Scientific Ethics
+- Plagiarism and Originality
+- Referencing and Citations
+- Mind Mapping
+- Portfolio Management
 
 ---
 
-# The Bioinformatics Workflow
+# Overall Bioinformatics Workflow
 
-One of the main things I understood during the internship was how different bioinformatics tools can be connected together to answer a biological question.
-
-The overall workflow followed during the training can be represented as:
+One of the main things I understood during the internship was how different bioinformatics resources can be connected to investigate a biological question.
 
 ```text
 Biological Question
@@ -111,6 +153,8 @@ Protein–Protein Interaction
         ↓
 Network Analysis
         ↓
+Hub Gene Identification
+        ↓
 Protein Annotation
         ↓
 Protein Structure Analysis
@@ -127,6 +171,448 @@ Virtual Screening
         ↓
 Statistical & Biological Interpretation
 
+A major takeaway was that the output of one stage can become the input for the next. A list of genes can therefore be explored through their functions, pathways, interactions, protein structures, and potential protein–ligand interactions.
+
+01 — Bioinformatics Fundamentals
+
+This section contains the fundamental concepts used throughout the internship.
+
+Topics
+Introduction to Bioinformatics
+Computational Biology
+Biological Data
+Genomic Data
+Transcriptomic Data
+Role of Biological Databases
+Applications of Bioinformatics
+Bioinformatics in Biomedical Research
+Bioinformatics in Drug Discovery
+Bioinformatics Workflow
+02 — Biological Databases
+
+This section documents the major databases and resources explored during the internship.
+
+Resource	Main Use
+NCBI	Biological literature, sequences, datasets and other resources
+GEO	Public gene expression datasets
+UniProt	Protein annotation and functional information
+PDB	Experimentally determined 3D structures
+PDBsum	Structural summaries and interaction information
+STRING	Protein–protein interaction networks
+Gene Ontology	Functional annotation
+KEGG	Biological and signalling pathways
+g:Profiler	Functional enrichment analysis
+AlphaFold	Predicted protein structures
+SWISS-MODEL	Homology modelling
+03 — Transcriptomics
+
+This section covers the concepts used to study gene expression data.
+
+Topics
+Transcriptomics
+Gene Expression
+RNA Sequencing
+Microarrays
+Gene Expression Datasets
+Disease vs Healthy Comparisons
+GEO2R
+Differential Gene Expression
+Log₂ Fold Change
+Adjusted p-values
+Statistical Filtering
+Interpretation of Gene Expression Results
+04 — Asthma Transcriptomics Case Study
+
+One of the major practical components of the internship was the analysis and interpretation of gene expression data related to asthma.
+
+Dataset
+
+GEO Accession: GSE43696
+
+The dataset was explored through the NCBI Gene Expression Omnibus (GEO) and analysed using GEO2R.
+
+Analysis Workflow
+GEO Dataset
+     ↓
+GEO2R
+     ↓
+Healthy vs Asthma Samples
+     ↓
+Differential Gene Expression
+     ↓
+Statistical Filtering
+     ↓
+Significant Genes
+     ↓
+Functional Enrichment
+     ↓
+Pathway Analysis
+     ↓
+PPI Network
+     ↓
+Hub Gene Analysis
+
+The selected genes were taken forward for functional and network-level interpretation.
+
+Research Paper Study
+
+Research papers related to asthma transcriptomics were also studied and discussed, with focus on:
+
+Gene expression signatures
+Master regulator genes
+Hub genes
+Molecular classification
+Disease-associated pathways
+Transcriptomic analysis
+Precision medicine
+05 — Functional & Network Analysis
+
+After obtaining genes of interest, the next step was to understand their biological functions and relationships.
+
+Gene Ontology
+
+Analysis of:
+
+Biological Process
+Molecular Function
+Cellular Component
+KEGG
+
+Used to investigate biological and signalling pathways associated with selected genes.
+
+g:Profiler
+
+Used for functional enrichment and interpretation of gene lists.
+
+STRING
+
+Used to explore protein–protein interactions and construct interaction networks.
+
+Cytoscape
+
+Used for:
+
+Network visualisation
+Network topology
+Important nodes
+Network clusters
+Hub gene analysis
+Biological interpretation
+06 — Structural Bioinformatics
+
+The internship then moved from gene-level analysis towards proteins and their three-dimensional structures.
+
+Topics
+Protein Annotation
+Protein Sequences
+Protein Structures
+Experimental Structures
+Predicted Structures
+Protein Domains
+Secondary Structures
+Ligand-Binding Regions
+Homology Modelling
+Three-Dimensional Molecular Organisation
+Resources & Software
+
+UniProt
+Protein annotation and functional information.
+
+PDB
+Retrieval and exploration of experimentally determined structures.
+
+PDBsum
+Structural summaries and protein–ligand or protein–protein interaction information.
+
+AlphaFold
+Exploration of predicted protein structures.
+
+SWISS-MODEL
+Introduction to homology modelling and structure prediction.
+
+PyMOL
+Three-dimensional protein structure visualisation and structural inspection.
+
+07 — Molecular Docking & Virtual Screening
+
+This section documents the computational concepts involved in early-stage drug discovery.
+
+Supporting Concepts
+Medicinal Chemistry Basics
+Molecular Interactions
+Stereochemistry
+Isomerism
+Conformational Analysis
+Molecular Geometry
+Protein Preparation
+
+The preparation workflow included understanding:
+
+Structure inspection
+Removal of unwanted molecules
+Handling structural issues
+Preparation of proteins for docking
+Ligand Preparation
+
+Ligands were prepared for computational docking and interaction analysis.
+
+Software
+UCSF ChimeraX
+AutoDock Tools
+AutoDock Vina
+PyMOL
+Molecular Docking
+
+The docking workflow was used to understand possible interactions between a target protein and ligand.
+
+Topics
+Docking Poses
+Binding Affinity
+Binding Sites
+Protein–Ligand Interactions
+Docking Result Interpretation
+Virtual Screening
+
+Virtual screening introduced the concept of computationally evaluating multiple compounds and prioritising potentially promising candidates for further investigation.
+
+An important takeaway was that docking scores and computational predictions are not experimental proof and require biological interpretation and experimental validation.
+
+08 — Statistics & Biostatistics
+
+Statistical understanding is important when working with biological datasets.
+
+Topics
+
+Descriptive Statistics
+
+Mean
+Median
+Mode
+Range
+Variance
+Standard Deviation
+Quartiles
+Interquartile Range
+
+Data Analysis
+
+Data Distribution
+Frequency Analysis
+Graphical Representation
+Outlier Identification
+
+Probability & Statistics
+
+Normal Distribution
+Probability Concepts
+Hypothesis Testing
+p-values
+Confidence Intervals
+Correlation
+Statistical Significance
+
+The sessions helped me understand how statistical methods can support conclusions drawn from biological and experimental data.
+
+09 — Scientific Research & Writing
+
+The internship also covered the research and communication skills required alongside technical analysis.
+
+Research Methodology
+Research Planning
+Experimental Design
+Scientific Thinking
+Documentation
+Literature Review
+Finding Relevant Papers
+Reading Research Papers
+Understanding Research Methodology
+Comparing Scientific Findings
+Presenting Research Papers
+Scientific Writing
+Research Paper Structure
+Report Writing
+Introduction
+Methodology
+Results
+Discussion
+Conclusion
+Scientific Presentation
+Scientific Ethics
+Plagiarism Awareness
+Original Writing
+Citation Practices
+Referencing
+Publication Standards
+Ethical Scientific Communication
+Additional Skills
+Mind Mapping
+Portfolio Management
+Scientific Documentation
+10 — Workshops & Additional Learning
+
+Alongside the core bioinformatics modules, several additional sessions and activities were conducted.
+
+Scientific Writing Workshop
+
+Covered scientific writing, research papers, review articles, internship reports, citations, references, clarity, and originality.
+
+Biostatistics Workshop
+
+Focused on statistical concepts and their application to biological data analysis.
+
+Bioreactor Workshop
+
+Introduced basic principles of bioreactors and upstream bioprocessing, including:
+
+Bioreactor Components
+Impellers and Agitators
+Spargers
+Baffles
+Temperature Control
+pH Control
+Dissolved Oxygen
+Aeration
+Foam Control
+Batch Fermentation
+Fed-Batch Fermentation
+Continuous Fermentation
+Scale-Up
+Laboratory Safety
+
+Introduction to safety practices in academic and research environments.
+
+Fire Safety & Emergency Drill
+
+Covered:
+
+Fire Prevention
+Emergency Response
+Fire Extinguisher Use
+Emergency Exits
+Evacuation Procedures
+Laboratory Safety Protocols
+Mind Mapping Session
+
+Focused on organising scientific concepts and improving research planning.
+
+Laboratory Visit
+
+Provided exposure to the research environment, laboratory facilities, equipment, and working practices at the institute.
+
+11 — Projects & Practical Work
+
+This section contains the practical work completed during the internship.
+
+Asthma Transcriptomics
+GEO
+ ↓
+GSE43696
+ ↓
+GEO2R
+ ↓
+Differential Gene Expression
+ ↓
+Functional Enrichment
+ ↓
+Pathway Analysis
+ ↓
+PPI Network
+ ↓
+Hub Gene Analysis
+Functional Enrichment
+Gene Ontology
+KEGG
+g:Profiler
+PPI Network Analysis
+STRING
+Cytoscape
+Network Analysis
+Hub Gene Identification
+Protein Structure Analysis
+UniProt
+PDB
+PDBsum
+AlphaFold
+SWISS-MODEL
+PyMOL
+Molecular Docking
+Protein Preparation
+Ligand Preparation
+ChimeraX
+AutoDock Tools
+AutoDock Vina
+Docking Analysis
+Virtual Screening
+12 — Research Paper Reviews
+
+Research papers studied during the internship are documented separately.
+
+The primary focus was on asthma and transcriptomic research, including:
+
+Gene Expression Signatures
+Master Regulator Genes
+Molecular Classification
+Hub Genes
+Transcriptomic Datasets
+Disease Mechanisms
+Precision Medicine
+
+The purpose of this section is to document what was understood from the papers and how the findings relate to the learning and analysis performed during the internship.
+
+13 — Internship Documentation
+
+The final internship deliverables are maintained here.
+
+Final Internship Report
+Final Presentation
+Internship Documentation
+
+The report consolidates the methodology, analysis and interpretation, future prospects, summary, references, and additional learning activities from the internship.
+
+14 — Figures & Screenshots
+
+Supporting figures and screenshots from the internship are organised separately for easy reference.
+
+14-Figures-and-Screenshots/
+│
+├── Workflow/
+├── NCBI/
+├── GEO/
+├── GEO2R/
+├── STRING/
+├── Cytoscape/
+├── GO-KEGG/
+├── Protein-Structures/
+├── PyMOL/
+├── Docking/
+└── Workshops/
+
+This keeps the main documentation readable while preserving the visual evidence from the practical sessions.
+
+Tools & Technologies
+Databases & Resources
+NCBI
+GEO
+UniProt
+PDB
+PDBsum
+STRING
+Gene Ontology
+KEGG
+g:Profiler
+AlphaFold
+SWISS-MODEL
+Software & Platforms
+GEO2R
+Cytoscape
+PyMOL
+UCSF ChimeraX
+AutoDock Tools
+AutoDock Vina
+Google Colab
+Jupyter Notebook
+Programming
+Python
 Repository Structure
 DYPBBI-Summer-Internship-2026-Bioinformatics/
 │
@@ -160,11 +646,14 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── GEO2R.md
 │   └── Differential-Gene-Expression.md
 │
-├── 04-Asthma-Transcriptomics/
+├── 04-Asthma-Transcriptomics-Case-Study/
 │   ├── README.md
 │   ├── GSE43696.md
 │   ├── GEO2R-Analysis.md
 │   ├── Differentially-Expressed-Genes.md
+│   ├── Functional-Enrichment.md
+│   ├── PPI-Network-Analysis.md
+│   ├── Hub-Gene-Analysis.md
 │   ├── Research-Paper-Review.md
 │   └── Figures/
 │
@@ -226,39 +715,21 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │
 ├── 10-Workshops-and-Additional-Learning/
 │   ├── README.md
-│   ├── Laboratory-Safety.md
-│   ├── Fire-Safety-and-Emergency-Drill.md
-│   ├── Bioreactor-Workshop.md
 │   ├── Scientific-Writing-Workshop.md
 │   ├── Biostatistics-Workshop.md
+│   ├── Bioreactor-Workshop.md
+│   ├── Laboratory-Safety.md
+│   ├── Fire-Safety-and-Emergency-Drill.md
 │   ├── Mind-Mapping-Session.md
 │   └── Laboratory-Visit.md
 │
-├── 11-Projects-and-Practical-Work/
+├── 11-Molecular-Docking-Project/
 │   ├── README.md
-│   │
-│   ├── Asthma-Transcriptomics/
-│   │   ├── README.md
-│   │   ├── Dataset/
-│   │   ├── Analysis/
-│   │   ├── Results/
-│   │   └── Figures/
-│   │
-│   ├── Functional-Enrichment/
-│   │   ├── README.md
-│   │   └── Results/
-│   │
-│   ├── PPI-Network-Analysis/
-│   │   ├── README.md
-│   │   ├── Network/
-│   │   └── Figures/
-│   │
-│   └── Molecular-Docking/
-│       ├── README.md
-│       ├── Protein/
-│       ├── Ligands/
-│       ├── Docking/
-│       └── Results/
+│   ├── Protein/
+│   ├── Ligands/
+│   ├── Docking/
+│   ├── Results/
+│   └── Figures/
 │
 ├── 12-Research-Paper-Reviews/
 │   ├── README.md
@@ -266,10 +737,10 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── Asthma-Transcriptomics-Paper-2.md
 │   └── Asthma-Transcriptomics-Paper-3.md
 │
-├── 13-Internship-Report/
+├── 13-Internship-Documentation/
 │   ├── Final-Internship-Report.pdf
-│   ├── Presentation.pdf
-│   └── Documentation.md
+│   ├── Final-Presentation.pdf
+│   └── Internship-Documentation.md
 │
 ├── 14-Figures-and-Screenshots/
 │   ├── Workflow/
@@ -277,8 +748,8 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── GEO/
 │   ├── GEO2R/
 │   ├── STRING/
-│   ├── GO/
-│   ├── KEGG/
+│   ├── Cytoscape/
+│   ├── GO-KEGG/
 │   ├── Protein-Structures/
 │   ├── PyMOL/
 │   ├── Docking/
@@ -289,632 +760,98 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
     ├── Software.md
     ├── Books.md
     └── Research-Papers.md
-
-01 — Bioinformatics Fundamentals
-
-This section contains the basic concepts needed to understand the rest of the internship.
-
-Topics
-Introduction to bioinformatics
-Computational biology
-Biological data
-Genomic data
-Transcriptomic data
-Role of databases in biological research
-Applications of bioinformatics
-Bioinformatics in biomedical research
-Bioinformatics in drug discovery
-
-The aim here was to understand the basic connection between biology, computation and data analysis before moving into individual tools.
-
-02 — Biological Databases
-
-A large part of the internship involved learning how biological information is stored and retrieved from different databases.
-
-NCBI
-
-Exploration of the National Center for Biotechnology Information and its different biological resources.
-
-GEO
-
-Understanding the Gene Expression Omnibus and how publicly available gene expression datasets can be accessed.
-
-UniProt
-
-Protein annotation and functional information.
-
-PDB
-
-Exploration of experimentally determined three-dimensional protein structures.
-
-PDBsum
-
-Structural summaries and additional information associated with PDB structures.
-
-STRING
-
-Protein–protein interaction information and network construction.
-
-Gene Ontology
-
-Functional annotation through:
-
-Biological Process
-Molecular Function
-Cellular Component
-KEGG
-
-Exploration of biological and signalling pathways.
-
-g:Profiler
-
-Functional enrichment and interpretation of gene lists.
-
-AlphaFold
-
-Exploration of predicted protein structures.
-
-SWISS-MODEL
-
-Introduction to homology modelling and protein structure prediction.
-
-03 — Transcriptomics
-
-The internship introduced the use of computational methods to study gene expression.
-
-Topics
-Transcriptomics
-Gene expression
-RNA sequencing
-Microarray technology
-Gene expression datasets
-Disease vs healthy comparisons
-Differential gene expression
-Log₂ fold change
-Adjusted p-values
-Statistical filtering
-Interpretation of gene expression results
-
-This section focuses on the concepts behind transcriptomic data before moving into the asthma case study.
-
-04 — Asthma Transcriptomics
-
-One of the main practical components of the internship was the study of gene expression in asthma.
-
-Dataset
-
-GEO Accession: GSE43696
-
-The dataset was explored through the NCBI Gene Expression Omnibus and analysed using GEO2R.
-
-Analysis
-
-The workflow involved:
-
-GEO Dataset
-      ↓
-GEO2R
-      ↓
-Healthy vs Asthma Samples
-      ↓
-Differential Gene Expression
-      ↓
-Statistical Filtering
-      ↓
-Significant Genes
-
-The selected genes were then taken forward for functional and network analysis.
-
-Research Paper Study
-
-Research papers related to asthma transcriptomics were also reviewed and discussed.
-
-The paper discussions focused on topics such as:
-
-Gene expression signatures
-Master regulator genes
-Hub genes
-Molecular classification
-Disease-associated pathways
-Transcriptomic analysis
-Precision medicine
-05 — Functional & Network Analysis
-
-After obtaining genes of interest, the next step was to understand their biological meaning.
-
-Gene Ontology
-
-GO analysis was used to investigate:
-
-Biological processes
-Molecular functions
-Cellular components
-KEGG
-
-KEGG pathway analysis was used to connect selected genes with biological and signalling pathways.
-
-g:Profiler
-
-g:Profiler was used as another enrichment resource for analysing gene lists and identifying relevant biological categories.
-
-STRING
-
-STRING was used to explore protein–protein interactions.
-
-This helped demonstrate that proteins generally work as part of interaction networks rather than independently.
-
-Cytoscape
-
-Cytoscape was used for network visualisation and analysis.
-
-Areas explored included:
-
-Network visualisation
-Network topology
-Important nodes
-Network clusters
-Hub genes
-Biological interpretation
-06 — Structural Bioinformatics
-
-The internship then moved from gene-level analysis towards proteins and their structures.
-
-Topics
-Protein annotation
-Protein sequences
-Protein structure
-Experimental structures
-Predicted structures
-Protein domains
-Secondary structures
-Ligand-binding regions
-Homology modelling
-Three-dimensional molecular organisation
-UniProt
-
-Used to explore protein information and annotation.
-
-PDB
-
-Used to retrieve experimentally determined protein structures.
-
-PDBsum
-
-Used to inspect structural summaries and related information.
-
-AlphaFold
-
-Used to explore predicted protein structures.
-
-SWISS-MODEL
-
-Used to understand homology modelling and protein structure prediction.
-
-PyMOL
-
-Used for protein structure visualisation and structural inspection.
-
-I worked with three-dimensional protein structures to better understand their architecture and molecular organisation.
-
-07 — Molecular Docking & Virtual Screening
-
-The internship also introduced the computational side of early-stage drug discovery.
-
-Before performing docking, I learned about the importance of preparing both the protein and ligand.
-
-Supporting Concepts
-Medicinal chemistry basics
-Molecular interactions
-Stereochemistry
-Isomerism
-Conformational analysis
-Molecular geometry
-Protein Preparation
-
-The preparation workflow included understanding steps such as:
-
-Removing unwanted molecules
-Handling structural issues
-Preparing the protein for docking
-Inspecting the structure
-Ligand Preparation
-
-Ligands were prepared for computational docking and interaction analysis.
-
-ChimeraX
-
-ChimeraX was used for molecular structure preparation and inspection.
-
-AutoDock Tools
-
-AutoDock Tools was introduced for preparing structures for docking.
-
-AutoDock Vina
-
-AutoDock Vina was used to understand the docking process and predicted protein–ligand interactions.
-
-Molecular Docking
-
-The main idea was to investigate possible ways in which a ligand can interact with a target protein.
-
-Topics included:
-
-Docking poses
-Binding affinity
-Protein–ligand interactions
-Binding sites
-Docking result interpretation
-Virtual Screening
-
-Virtual screening introduced the idea of computationally evaluating multiple compounds and prioritising promising candidates for further investigation.
-
-An important takeaway was that docking scores and computational predictions should not be treated as final proof. They need biological interpretation and experimental validation.
-
-08 — Statistics & Biostatistics
-
-Statistical understanding is important when working with biological data.
-
-The biostatistics sessions covered:
-
-Descriptive Statistics
-Mean
-Median
-Mode
-Range
-Variance
-Standard deviation
-Quartiles
-Interquartile range
-Data Analysis
-Data distribution
-Frequency analysis
-Graphical representation
-Outlier identification
-Probability & Statistics
-Normal distribution
-Probability concepts
-Hypothesis testing
-p-values
-Confidence intervals
-Correlation
-Statistical significance
-
-The sessions helped me understand how statistical methods can be used to support conclusions from biological and experimental data.
-
-09 — Scientific Research & Writing
-
-The internship also focused on the part of research that happens outside the software.
-
-Research Methodology
-Research planning
-Experimental design
-Scientific thinking
-Documentation
-Literature Review
-Finding relevant papers
-Reading research papers
-Understanding research methodology
-Comparing scientific findings
-Presenting research papers
-Scientific Writing
-
-Topics included:
-
-Research paper structure
-Report writing
-Introductions
-Methodology
-Results
-Discussion
-Conclusions
-Scientific presentation
-Scientific Ethics
-
-The sessions also covered:
-
-Plagiarism awareness
-Original writing
-Citation practices
-Referencing
-Publication standards
-Ethical scientific communication
-Mind Mapping
-
-Mind mapping was introduced as a way of organising complex scientific ideas and connecting related concepts.
-
-Portfolio Management
-
-I also learned how to organise:
-
-Notes
-Figures
-Screenshots
-Observations
-Assignments
-References
-Internship documentation
-10 — Workshops & Additional Learning
-
-Along with the main bioinformatics modules, several additional activities were conducted during the internship.
-
-Laboratory Safety
-
-Introduction to safety practices in academic and research environments.
-
-Fire Safety & Emergency Drill
-
-Covered:
-
-Fire prevention
-Emergency response
-Fire extinguisher use
-Emergency exits
-Evacuation procedures
-Laboratory safety protocols
-Bioreactor Workshop
-
-The bioreactor workshop introduced the basics of upstream bioprocessing and large-scale biological production.
-
-Topics included:
-
-Bioreactor components
-Reaction vessel
-Impeller
-Agitator
-Sparger
-Baffles
-Temperature control
-pH control
-Dissolved oxygen
-Aeration
-Foam control
-Nutrient supply
-Batch fermentation
-Fed-batch fermentation
-Continuous fermentation
-Scale-up
-
-The session also discussed applications of bioreactors in the production of vaccines, antibiotics, enzymes, recombinant proteins, monoclonal antibodies and other biopharmaceutical products.
-
-Scientific Writing Workshop
-
-Focused on:
-
-Research paper writing
-Review articles
-Internship reports
-Project documentation
-Citations
-References
-Scientific clarity
-Originality
-Biostatistics Workshop
-
-Focused on statistical concepts and their use in biological data analysis.
-
-Mind Mapping Session
-
-Focused on organising scientific concepts and improving research planning and documentation.
-
-Laboratory Visit
-
-The laboratory visit provided exposure to the research environment, facilities and equipment used at the institute.
-
-11 — Projects & Practical Work
-
-This section contains the actual practical components of the internship.
-
-Asthma Transcriptomics
-GEO
- ↓
-GSE43696
- ↓
-GEO2R
- ↓
-Differential Expression
- ↓
-Functional Enrichment
- ↓
-Pathway Analysis
- ↓
-PPI Network
-Functional Enrichment
-
-Analysis using:
-
-Gene Ontology
-KEGG
-g:Profiler
-PPI Network Analysis
-
-Analysis using:
-
-STRING
-Cytoscape
-Protein Structure Analysis
-
-Analysis using:
-
-UniProt
-PDB
-PDBsum
-AlphaFold
-SWISS-MODEL
-PyMOL
-Molecular Docking
-
-Workflow involving:
-
-Protein preparation
-Ligand preparation
-ChimeraX
-AutoDock Tools
-AutoDock Vina
-Docking analysis
-Virtual screening
-12 — Research Paper Reviews
-
-A separate section is maintained for research papers studied during the internship.
-
-The main focus was on asthma and transcriptomic research, including topics such as:
-
-Gene expression signatures
-Master regulator genes
-Molecular classification
-Hub genes
-Transcriptomic datasets
-Disease mechanisms
-Precision medicine
-
-The purpose of keeping these separately is to record what I understood from the papers rather than simply storing the papers themselves.
-
-13 — Internship Report
-
-The complete internship report and related documentation are kept here.
-
-13-Internship-Report/
-│
-├── Final-Internship-Report.pdf
-├── Presentation.pdf
-└── Documentation.md
-
-The final report covers the methodology, analysis and interpretation, future prospects, summary, references and additional learning activities from the internship.
-
-14 — Figures & Screenshots
-
-Screenshots and figures from the practical sessions are organised separately.
-
-14-Figures-and-Screenshots/
-│
-├── Workflow/
-├── NCBI/
-├── GEO/
-├── GEO2R/
-├── STRING/
-├── GO/
-├── KEGG/
-├── Protein-Structures/
-├── PyMOL/
-├── Docking/
-└── Workshops/
-
-This keeps the main notes readable while making it easy to find the original practical screenshots and figures.
-
-Tools & Technologies
-Databases
-NCBI
-GEO
-UniProt
-PDB
-PDBsum
-STRING
-Gene Ontology
-KEGG
-g:Profiler
-AlphaFold
-SWISS-MODEL
-Software & Platforms
-GEO2R
-Cytoscape
-PyMOL
-UCSF ChimeraX
-AutoDock Tools
-AutoDock Vina
-Google Colab
-Jupyter Notebook
-Programming
-Python
 Key Takeaways
 
 The biggest thing I took away from the internship was understanding how computational tools can be connected to a biological problem.
 
 A list of genes by itself does not tell the complete story.
 
-It can be followed by:
-
 Genes
- ↓
+  ↓
 Functions
- ↓
+  ↓
 Pathways
- ↓
+  ↓
 Protein Interactions
- ↓
+  ↓
 Network Biology
- ↓
+  ↓
 Protein Structures
- ↓
+  ↓
 Protein–Ligand Interactions
- ↓
+  ↓
 Potential Therapeutic Targets
 
-I also learned that computational results need to be interpreted carefully. Statistical thresholds, database evidence, network confidence, structural quality and docking predictions can all affect the final interpretation.
+I also learned that computational results need to be interpreted carefully. Statistical thresholds, database evidence, network confidence, structural quality, and docking predictions can all influence the final interpretation.
 
-So, the software output is only one part of the process. Understanding the biology behind the result is equally important.
+The software output is therefore only one part of the process. Understanding the biology behind the result is equally important.
 
-What This Internship Added to My Skills
+Skills Developed
 
 By the end of the internship, I had gained practical exposure to:
 
-Finding and working with biological datasets
-Navigating major biological databases
-Performing basic transcriptomic analysis
-Understanding differential gene expression
-Interpreting gene lists using enrichment analysis
-Working with PPI networks
-Visualising biological networks
-Exploring protein annotations
-Working with protein structures
-Understanding structure prediction and homology modelling
-Visualising molecules in 3D
-Preparing proteins and ligands for docking
-Understanding molecular docking workflows
-Interpreting docking results
-Understanding virtual screening
-Applying basic statistics to biological data
-Reading and discussing scientific literature
-Writing and documenting scientific work
+Working with biological datasets
+Navigating biological databases
+Transcriptomic data analysis
+Differential gene expression
+Functional enrichment
+Pathway analysis
+Protein–protein interaction networks
+Biological network visualisation
+Protein annotation
+Protein structure analysis
+Structure prediction
+Homology modelling
+Molecular visualisation
+Protein and ligand preparation
+Molecular docking
+Docking result interpretation
+Virtual screening
+Basic statistical analysis
+Scientific literature review
+Scientific writing
+Research documentation
 Future Learning
 
-This internship gave me a foundation to explore more advanced areas of computational biology.
+This internship provided a foundation for exploring more advanced areas of computational biology.
 
-Some of the areas I would like to explore further are:
+Areas I would like to explore further include:
 
-Advanced transcriptomics
-RNA-seq analysis
-Cancer genomics
+Advanced Transcriptomics
+RNA-seq Analysis
+Cancer Genomics
 Multi-omics
-Systems biology
-Structural bioinformatics
-Molecular dynamics
-Protein engineering
-Computational drug discovery
+Systems Biology
+Structural Bioinformatics
+Molecular Dynamics
+Protein Engineering
+Computational Drug Discovery
 Pharmacogenomics
-Precision medicine
-Machine learning in bioinformatics
-AI-assisted drug discovery
+Precision Medicine
+Machine Learning in Bioinformatics
+AI-assisted Drug Discovery
 References
 
-The detailed references used during the internship are maintained in the References/ directory.
+Detailed references used during the internship are maintained in the References/ directory.
 
-This includes:
+These include:
 
-Biological databases
-Software
-Textbooks
-Research papers
-Other learning resources
+Biological Databases
+Software and Computational Tools
+Books and Textbooks
+Research Papers
+Other Learning Resources
 Acknowledgement
 
-I am grateful to Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Pune, and the faculty and mentors involved in the internship for providing me with the opportunity to learn and work through different areas of bioinformatics.
+I am grateful to Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Pune, and the faculty and mentors involved in the internship for providing me with the opportunity to learn and work across different areas of bioinformatics.
 
 I am also thankful to Motilal Nehru National Institute of Technology Allahabad for supporting this learning experience.
 
 Final Note
 
-This repository is mainly a record of my learning during the internship.
+This repository is primarily a record of my learning and practical work during the internship.
 
-Some sections contain notes and concepts, while others contain practical work, screenshots, analysis and research-related documentation. I have tried to keep everything organised so that I can come back to these topics later and build on them through future projects.
+Some sections contain concepts and notes, while others contain practical analyses, figures, screenshots, research paper reviews, and internship documentation. I have organised them so that I can return to these topics later and continue building on them through future projects and research.
 
 Internship completed — learning continues.
 
