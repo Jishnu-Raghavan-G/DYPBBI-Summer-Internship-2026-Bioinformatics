@@ -644,7 +644,12 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── RNA-Seq-and-Microarray.md
 │   ├── Gene-Expression.md
 │   ├── GEO2R.md
-│   └── Differential-Gene-Expression.md
+│   ├── Differential-Gene-Expression.md
+│   └── Code/
+│       ├── Expression-Matrix-Analysis.py
+│       ├── Differential-Expression-Analysis.py
+│       ├── Heatmap-and-Volcano-Plot.py
+│       └── README.md
 │
 ├── 04-Asthma-Transcriptomics-Case-Study/
 │   ├── README.md
@@ -655,6 +660,10 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── PPI-Network-Analysis.md
 │   ├── Hub-Gene-Analysis.md
 │   ├── Research-Paper-Review.md
+│   ├── Code/
+│   │   ├── GEO2R-Results-Processing.py
+│   │   ├── DEG-Filtering.py
+│   │   └── README.md
 │   └── Figures/
 │
 ├── 05-Functional-and-Network-Analysis/
@@ -664,7 +673,12 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── gProfiler.md
 │   ├── STRING-PPI.md
 │   ├── Cytoscape.md
-│   └── Hub-Gene-Analysis.md
+│   ├── Hub-Gene-Analysis.md
+│   └── Code/
+│       ├── Gene-List-Preparation.py
+│       ├── Enrichment-Data-Processing.py
+│       ├── Network-Data-Processing.py
+│       └── README.md
 │
 ├── 06-Structural-Bioinformatics/
 │   ├── README.md
@@ -675,7 +689,11 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── AlphaFold.md
 │   ├── Homology-Modelling.md
 │   ├── SWISS-MODEL.md
-│   └── PyMOL.md
+│   ├── PyMOL.md
+│   └── Code/
+│       ├── Protein-Sequence-Analysis.py
+│       ├── Structure-Data-Processing.py
+│       └── README.md
 │
 ├── 07-Molecular-Docking-and-Virtual-Screening/
 │   ├── README.md
@@ -689,7 +707,11 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── AutoDock-Vina.md
 │   ├── Molecular-Docking.md
 │   ├── Docking-Analysis.md
-│   └── Virtual-Screening.md
+│   ├── Virtual-Screening.md
+│   └── Code/
+│       ├── Docking-Results-Analysis.py
+│       ├── Ligand-Data-Processing.py
+│       └── README.md
 │
 ├── 08-Statistics-and-Biostatistics/
 │   ├── README.md
@@ -700,7 +722,13 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── P-Values.md
 │   ├── Confidence-Intervals.md
 │   ├── Correlation.md
-│   └── Biological-Data-Analysis.md
+│   ├── Biological-Data-Analysis.md
+│   └── Code/
+│       ├── Descriptive-Statistics.py
+│       ├── Probability-and-Distributions.py
+│       ├── Hypothesis-Testing.py
+│       ├── Correlation-Analysis.py
+│       └── README.md
 │
 ├── 09-Scientific-Research-and-Writing/
 │   ├── README.md
@@ -729,6 +757,7 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── Ligands/
 │   ├── Docking/
 │   ├── Results/
+│   ├── Code/
 │   └── Figures/
 │
 ├── 12-Research-Paper-Reviews/
