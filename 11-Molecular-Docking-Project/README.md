@@ -1,38 +1,76 @@
 # Molecular Docking Project
 
-## Introduction
+This section documents my learning and practical exposure to molecular docking and computer-aided drug discovery during the DYPBBI Summer Internship 2026.
 
-Molecular docking is a computational technique used to investigate the possible binding of a small molecule ligand to a target macromolecule, commonly a protein.
-
-The technique is used in structural bioinformatics and computer-aided drug discovery to explore:
-
-- Protein–ligand interactions
-- Possible binding orientations
-- Binding-site interactions
-- Docking poses
-- Relative docking scores
-
-This section documents the molecular docking project and organizes its associated proteins, ligands, docking results, code, and figures.
+The molecular docking component connected concepts from medicinal chemistry and structural bioinformatics with computational methods used to study protein–ligand interactions.
 
 ---
 
-## Project Structure
+## Overview
+
+Molecular docking is a computational approach used to investigate how a small molecule ligand may interact with a target protein.
+
+During the internship, I was introduced to the workflow involved in preparing molecular structures, performing docking, examining docking poses, and interpreting predicted protein–ligand interactions.
+
+The training also introduced virtual screening as an extension of docking in which multiple compounds can be computationally evaluated and prioritised for further investigation.
+
+---
+
+## Topics Covered
+
+The molecular docking training covered the following areas:
+
+- Medicinal chemistry fundamentals
+- Molecular interactions
+- Stereochemistry
+- Isomerism
+- Conformational analysis
+- Molecular geometry
+- Protein structure preparation
+- Ligand preparation
+- Molecular structure inspection
+- Protein–ligand docking
+- Docking poses
+- Binding affinity
+- Binding sites
+- Protein–ligand interactions
+- Docking result interpretation
+- Virtual screening
+
+---
+
+## Software and Tools
+
+The following tools were introduced and used during the molecular docking training:
+
+### ChimeraX
+
+ChimeraX was used for molecular structure inspection and preparation.
+
+It helped in understanding and working with three-dimensional molecular structures before docking.
+
+### AutoDock Tools
+
+AutoDock Tools was introduced for preparing protein and ligand structures for docking.
+
+The preparation stage is important because the quality and suitability of the input structures affect downstream docking calculations.
+
+### AutoDock Vina
+
+AutoDock Vina was used to understand the molecular docking process and the prediction of possible protein–ligand binding modes.
+
+The resulting docking poses and predicted binding affinities were examined as part of the analysis.
+
+---
+
+## General Docking Workflow
+
+The workflow learned during the internship can be represented as:
 
 ```text
-11-Molecular-Docking-Project/
-│
-├── README.md
-├── Protein/
-├── Ligands/
-├── Docking/
-├── Results/
-├── Code/
-└── Figures/
-Project Workflow
-
-A general molecular docking workflow can be represented as:
-
 Target Protein
+      ↓
+Protein Structure Inspection
       ↓
 Protein Preparation
       ↓
@@ -40,270 +78,191 @@ Ligand Selection
       ↓
 Ligand Preparation
       ↓
-Binding-Site Definition
+Define Binding Site / Search Space
       ↓
 Molecular Docking
       ↓
-Docking Poses
+Generation of Docking Poses
       ↓
-Interaction Analysis
+Binding Affinity Evaluation
       ↓
-Result Interpretation
-Protein
-
-The Protein/ directory contains files and documentation associated with the selected target protein.
-
-Possible contents include:
-
-Protein sequence
-Protein structure
-PDB information
-Structural annotations
-Prepared protein files
-Binding-site information
-
-Example:
-
-Protein/
-├── Protein-Information.md
-├── Protein-Structure.pdb
-└── Prepared-Protein.pdbqt
-
-The exact files depend on the protein selected for the project.
-
-Ligands
-
-The Ligands/ directory contains information and files associated with molecules used for docking.
-
-Possible information includes:
-
-Ligand name
-Chemical structure
-Molecular formula
-Molecular weight
-SMILES representation
-3D structure
-Prepared ligand file
-
-Example:
-
-Ligands/
-├── Ligand-1/
-├── Ligand-2/
-└── Ligand-3/
+Protein–Ligand Interaction Analysis
+      ↓
+Interpretation of Results
 Protein Preparation
 
-Protein preparation is performed before docking to obtain a suitable structure for computational analysis.
+Before docking, the target protein needs to be prepared appropriately.
 
-Depending on the workflow, preparation may involve:
+The training covered concepts related to:
 
-Selecting the appropriate protein structure
-Inspecting the structure
-Removing irrelevant molecules where appropriate
-Adding required hydrogen atoms
-Assigning appropriate charges
-Checking the structure
-Converting the structure into the required format
+Inspecting the protein structure
+Removing unwanted molecules where appropriate
+Identifying structural issues
+Preparing the protein for docking
+Understanding the importance of a suitable input structure
+Inspecting the prepared structure using molecular visualisation tools
 
-The exact preparation procedure depends on the docking software and project requirements.
+Detailed notes are provided in:
+
+Notes/Protein-Preparation.md
 
 Ligand Preparation
 
-Ligands must also be prepared before docking.
+Ligands also need to be prepared before they can be used for docking.
 
-Possible steps include:
+The training introduced concepts related to:
 
-Obtaining the ligand structure
-Checking the chemical structure
-Generating a suitable 3D representation
-Assigning appropriate protonation states
-Adding hydrogens
-Generating required molecular parameters
-Converting the ligand to the required docking format
-Docking
+Ligand structure
+Molecular geometry
+Stereochemistry
+Isomerism
+Conformation
+Preparation of ligand structures for computational analysis
 
-The Docking/ directory contains files associated with the docking calculations.
+Detailed notes are provided in:
 
-Possible contents include:
+Notes/Ligand-Preparation.md
 
-Docking configuration
-Search-space information
-Docking input files
-Docking output files
-Generated poses
-Log files
+Molecular Interactions
 
-A simplified representation is:
+Understanding molecular interactions is important for interpreting docking results.
 
-Prepared Protein
-       +
-Prepared Ligand
-       ↓
-Docking Parameters
-       ↓
-Molecular Docking
-       ↓
-Candidate Binding Poses
-Docking Results
+The training introduced interactions that can contribute to protein–ligand binding, including:
 
-The Results/ directory contains the outputs generated from docking and their interpretation.
-
-Possible results include:
-
-Docking scores
-Binding poses
-Ranked ligand poses
-Protein–ligand interactions
-Hydrogen bonds
-Hydrophobic interactions
-Binding-site observations
-
-Docking scores should be interpreted as computational scoring outputs rather than direct experimental measurements of binding affinity.
-
-Interaction Analysis
-
-After docking, the predicted complexes can be examined to identify interactions between the ligand and protein.
-
-Possible interactions include:
-
-Hydrogen bonds
+Hydrogen bonding
 Hydrophobic interactions
 Electrostatic interactions
-π–π interactions
 Other non-covalent interactions
 
-Visualization tools can help inspect the predicted binding poses.
+These interactions help explain why a ligand may adopt a particular orientation within a binding site.
 
-Code
+Docking Poses
 
-The Code/ directory contains scripts used to process or analyze project data.
+A docking program can generate different possible orientations or conformations of a ligand within the target binding site.
 
-Possible applications include:
+These possible arrangements are referred to as docking poses.
 
-Processing docking outputs
-Extracting docking scores
-Comparing ligands
-Organizing result tables
-Generating plots
-Processing ligand information
+The poses can be examined to understand:
 
-Code should be accompanied by documentation explaining its purpose and required inputs.
+Ligand orientation
+Binding-site occupancy
+Interacting residues
+Possible hydrogen bonds
+Other protein–ligand interactions
+Predicted binding affinity
+Binding Affinity
 
-Figures
+Docking programs such as AutoDock Vina provide predicted binding-affinity scores for generated poses.
 
-The Figures/ directory contains visual outputs generated during the project.
+These scores can be used as one component of docking-result interpretation.
 
-Possible figures include:
+However, docking scores are computational predictions and should not by themselves be treated as experimental evidence of binding or biological activity.
 
-Protein structures
-Ligand structures
-Docked complexes
-Binding-site views
-Interaction diagrams
-Docking-score plots
-Workflow diagrams
+Docking Analysis
 
-Figures should have descriptive filenames and appropriate captions.
+After docking, the predicted complexes can be inspected to understand how the ligand interacts with the target protein.
 
-Reproducibility
+The analysis can involve:
 
-A computational docking project should document important parameters and processing steps.
+Comparing docking poses
+Examining interacting residues
+Inspecting the binding site
+Identifying possible hydrogen bonds
+Examining other molecular interactions
+Comparing predicted binding affinities
+Visualising the protein–ligand complex
 
-Useful information includes:
+The detailed learning notes are available in:
 
-Protein source
-Protein identifier
-Ligand source
-Software used
-Software version where available
-Docking parameters
-Search-space coordinates
-Number of poses
-Scoring settings
-Post-processing methods
+Notes/Docking-Analysis.md
 
-This information helps another researcher understand how the computational results were generated.
+Virtual Screening
 
-Interpretation
+Virtual screening was introduced as a computational approach for evaluating multiple compounds against a target.
 
-Docking results should be interpreted carefully.
+A general virtual-screening workflow can be represented as:
 
-A favorable computational score does not by itself prove that a ligand binds strongly to the protein experimentally.
-
-Interpretation should consider:
-
-Docking score
-Binding pose
-Protein–ligand interactions
-Binding-site location
-Structural plausibility
-Limitations of the docking method
-Available experimental evidence
-Limitations
-
-Molecular docking is a computational prediction method and has several limitations.
-
-Results can be affected by:
-
-Protein flexibility
-Ligand flexibility
-Protonation states
-Water molecules
-Scoring-function limitations
-Search-space definition
-Protein structural quality
-Preparation choices
-
-Therefore, docking results should generally be treated as hypotheses that may require further computational or experimental validation.
-
-Relationship to Structural Bioinformatics
-
-Molecular docking builds upon structural bioinformatics concepts.
-
-The broader workflow can be represented as:
-
-Protein Sequence
+Compound Library
       ↓
-Protein Annotation
+Ligand Preparation
       ↓
+Target Protein Preparation
+      ↓
+Docking
+      ↓
+Scoring
+      ↓
+Ranking of Compounds
+      ↓
+Selection of Candidates
+      ↓
+Further Investigation
+
+The purpose is to computationally prioritise compounds that may be worth further investigation.
+
+Virtual screening was covered primarily as a concept within the internship training.
+
+Project Organisation
+
+The section is organised into two main components:
+
+Notes
+
+The Notes/ directory contains detailed Markdown notes covering the concepts and tools learned during the molecular docking component.
+
+Notes/
+├── README.md
+├── Molecular-Docking-Concepts.md
+├── Medicinal-Chemistry-and-Ligands.md
+├── Stereochemistry-and-Isomerism.md
+├── Conformational-Analysis.md
+├── Protein-Preparation.md
+├── Ligand-Preparation.md
+├── ChimeraX.md
+├── AutoDock-Tools.md
+├── AutoDock-Vina.md
+├── Docking-Procedure.md
+├── Docking-Analysis.md
+└── Virtual-Screening.md
+Project Files
+
+The remaining directories are reserved for project-related material:
+
+Protein/
+Ligands/
+Docking/
+Results/
+Code/
+Figures/
+
+These directories can contain molecular structures, docking inputs and outputs, result files, scripts, and project figures where applicable.
+
+Learning Outcome
+
+The molecular docking component helped me understand how structural bioinformatics can be extended towards computational drug discovery.
+
+The training connected:
+
 Protein Structure
-      ↓
-Binding-Site Analysis
       ↓
 Ligand Structure
       ↓
+Molecular Interactions
+      ↓
+Protein Preparation
+      ↓
+Ligand Preparation
+      ↓
 Molecular Docking
       ↓
-Interaction Analysis
+Docking Pose Analysis
+      ↓
+Virtual Screening
 
-Structural bioinformatics training included protein annotation, protein structures, structure visualization, homology modelling, and tools such as UniProt, PDB, AlphaFold, SWISS-MODEL, and PyMOL.
+This provided an introduction to the computational workflow used to study potential protein–ligand interactions and to support early-stage drug-discovery research.
 
-Project Documentation
+Important Note
 
-The project should maintain a clear separation between:
+The material in this section documents the concepts, software, workflows, and practical exposure gained during the internship.
 
-Input Data
-   ↓
-Preparation
-   ↓
-Docking
-   ↓
-Raw Results
-   ↓
-Processed Results
-   ↓
-Visualization
-   ↓
-Interpretation
-
-This makes the computational workflow easier to follow and reduces confusion between original inputs and derived results.
-
-Key Takeaways
-Molecular docking is a computational method for investigating possible protein–ligand binding.
-Both proteins and ligands require appropriate preparation.
-Docking generates candidate binding poses and computational scores.
-Predicted interactions can be examined using molecular visualization tools.
-Docking scores should not automatically be interpreted as experimentally measured binding affinities.
-Reproducible documentation should include the relevant structures, software, parameters, and processing steps.
-The project directory separates proteins, ligands, docking calculations, results, code, and figures.
-Molecular docking connects structural bioinformatics with computational drug-discovery workflows.
+Docking scores and computational predictions should be interpreted carefully and do not independently establish experimental binding, efficacy, or therapeutic potential.
