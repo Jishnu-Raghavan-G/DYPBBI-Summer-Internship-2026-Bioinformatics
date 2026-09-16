@@ -615,6 +615,7 @@ Programming
 Python
 Repository Structure
 DYPBBI-Summer-Internship-2026-Bioinformatics/
+DYPBBI-Summer-Internship-2026-Bioinformatics/
 │
 ├── README.md
 │
@@ -660,11 +661,10 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   ├── PPI-Network-Analysis.md
 │   ├── Hub-Gene-Analysis.md
 │   ├── Research-Paper-Review.md
-│   ├── Code/
-│   │   ├── GEO2R-Results-Processing.py
-│   │   ├── DEG-Filtering.py
-│   │   └── README.md
-│   └── Figures/
+│   └── Code/
+│       ├── GEO2R-Results-Processing.py
+│       ├── DEG-Filtering.py
+│       └── README.md
 │
 ├── 05-Functional-and-Network-Analysis/
 │   ├── README.md
@@ -753,12 +753,28 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │
 ├── 11-Molecular-Docking-Project/
 │   ├── README.md
-│   ├── Protein/
-│   ├── Ligands/
-│   ├── Docking/
-│   ├── Results/
-│   ├── Code/
-│   └── Figures/
+│   │
+│   ├── Notes/
+│   │   ├── README.md
+│   │   ├── Molecular-Docking-Concepts.md
+│   │   ├── Medicinal-Chemistry-and-Ligands.md
+│   │   ├── Stereochemistry-and-Isomerism.md
+│   │   ├── Conformational-Analysis.md
+│   │   ├── Protein-Preparation.md
+│   │   ├── Ligand-Preparation.md
+│   │   ├── ChimeraX.md
+│   │   ├── AutoDock-Tools.md
+│   │   ├── AutoDock-Vina.md
+│   │   ├── Docking-Procedure.md
+│   │   ├── Docking-Analysis.md
+│   │   └── Virtual-Screening.md
+│   
+│   
+│   
+│   
+│   
+│   
+│   
 │
 ├── 12-Research-Paper-Reviews/
 │   ├── README.md
@@ -767,24 +783,9 @@ DYPBBI-Summer-Internship-2026-Bioinformatics/
 │   └── Asthma-Transcriptomics-Paper-3.md
 │
 ├── 13-Internship-Documentation/
-│   ├── Final-Internship-Report.pdf
-│   ├── Final-Presentation.pdf
-│   └── Internship-Documentation.md
+│   └── Final-Internship-Report.pdf
 │
-├── 14-Figures-and-Screenshots/
-│   ├── Workflow/
-│   ├── NCBI/
-│   ├── GEO/
-│   ├── GEO2R/
-│   ├── STRING/
-│   ├── Cytoscape/
-│   ├── GO-KEGG/
-│   ├── Protein-Structures/
-│   ├── PyMOL/
-│   ├── Docking/
-│   └── Workshops/
-│
-└── References/
+└── 14-References/
     ├── Databases.md
     ├── Software.md
     ├── Books.md
